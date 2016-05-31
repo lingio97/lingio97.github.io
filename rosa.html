@@ -14,6 +14,13 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+		<style type="text/css">
+.showbutton {display:block;margin:4px 0;}
+.nascondi {overflow:hidden;background: #fcfcfc;}
+.nasondi > div {-webkit-transition: all 0.3s ease;-moz-transition: margin 0.3s ease;-o-transition: all 0.3s ease;transition: margin 0.3s ease;}
+.showbutton[value="Mostra"] + .nascondi > div {margin-top:-100%;}
+.showbutton[value="Nascondi"] + .nascondi {padding:4px;} 
+</style>
 	</head>
 	<body>
 
@@ -67,6 +74,9 @@ Per le sue caratteristiche viene spesso accostato al connazionale Claude Makél�
 </div>
 <br>
 <h5>Rosa</h5>
+<input class="showbutton" type="button" value="Mostra" onclick="this.value=this.value=='Mostra'?'Nascondi':'Mostra';">
+<div class="nascondi"><div>
+Incollare il codice o il testo piano del contenuto da nascondere
 </div></div>
 <p>Il portiere titolare è Kasper Schmeichel (29), nato a Kopenhagen (Danimarca). Figlio d’arte di Peter, ha seguito le orme del padre in tutto e per tutto. Portiere della nazionale danese ha collezionato 20 presenze con la squadra maggiore e 26 nelle under. Prodotto del vivaio del Manchester City, in carriera ha indossato come prestito le maglie di Darlington, Bury, Falkirk, Cardiff, Coventry City, Notts County. Scartato dal Man City e ingaggiato gratis dal Leeds, approda al Leicester nel 2011 per 1,68 mln. Principale artefice del cammino di questa squadra verso la gloria. In questa stagione 36 presenze complessive, con la porta inviolata in 14 occasioni.
 
