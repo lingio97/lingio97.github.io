@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-/*
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Basic */
-
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
@@ -19,8 +11,6 @@
 	header.major p {
 		font-size: 1.1em;
 	}
-
-/* Feature */
 
 	.feature-grid .feature {
 		display: block;
@@ -36,7 +26,6 @@
 			margin-right: 0 !important;
 		}
 
-/* Header */
 
 	#skel-layers-wrapper {
 		padding-top: 2em;
@@ -46,19 +35,18 @@
 		display: none;
 	}
 
-/* Banner */
 
 	#banner {
 		padding: 9em 0 7em 0;
 	}
 
-/* Wrapper */
+
 
 	.wrapper {
 		padding: 4em 0 2em 0;
 	}
 
-/* One */
+
 
 	#one {
 		text-align: center;
@@ -124,6 +112,7 @@
 
 				#navPanel nav ul li {
 					padding: 0;
+					float: left;
 				}
 
 					#navPanel nav ul li:first-child a:not(.button), #navPanel nav ul li:first-child span:not(.button) {
